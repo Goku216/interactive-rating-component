@@ -9,12 +9,12 @@ body {
   width: 25%;
   margin: 10% 35%;
   text-align: left;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   padding: 2%;
   border-radius: 15px;
 }
 .box {
-  background-color:  hsl(213, 22%, 22%);
+  background-color: hsl(213, 22%, 22%);
   width: 2.3rem;
   height: 2.3rem;
   text-align: center;
@@ -25,7 +25,6 @@ body {
   width: 1rem;
   position: relative;
   top: 9px;
-
 }
 
 .content {
@@ -34,45 +33,49 @@ body {
 }
 
 .number-box {
-  background-color:hsl(213, 22%, 22%);
-  border-radius: 50%; 
-  font-family: 'Overpass', sans-serif;
+  background-color: hsl(213, 22%, 22%);
+  border-radius: 50%;
+  font-family: "Overpass", sans-serif;
   font-size: 20px;
   color: hsl(217, 12%, 63%);
-  height: 2.3rem; 
+  height: 2.3rem;
   padding: 11px 5px 0 5px;
   text-align: center;
   min-width: 2.3rem;
-  
+
   /* For layout*/
   display: inline-block;
   margin: 12.5px;
   position: relative;
   right: 10px;
   bottom: 5px;
-  
-  }
-  
-  .number-box:hover {
-    background-color: hsl(217, 12%, 63%);
-    cursor: pointer;
-    color: white;
-  }
+}
 
-  .btn {
-    color: white;
-    text-align: center;
-    background-color: hsl(25, 97%, 53%);
-    border: none;
-    border-radius: 40px;
-    font-size: 14px;
-    padding: 3% 40%;
-    letter-spacing: 2px;
-  }
+.number-box:hover {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  color: white;
+}
 
-  .btn:hover {
-    background-color: white;
-    color: hsl(25, 97%, 53%) ;
-    cursor: pointer;
-     
-  }
+.btn {
+  color: white;
+  text-align: center;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 3% 40%;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.active,
+.active:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
