@@ -1,0 +1,146 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+
+
+/* First Page Content */
+.content-box {
+  background-color: hsl(213, 19%, 18%);
+  width: 25%;
+  margin: 10% 35%;
+  text-align: left;
+  font-family: 'Overpass', sans-serif;
+  padding: 2%;
+  border-radius: 15px;
+  
+}
+.box {
+  background-color:  hsl(213, 22%, 22%);
+  width: 2.3rem;
+  height: 2.3rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.star-image {
+  width: 1rem;
+  position: relative;
+  top: 9px;
+
+}
+
+.content {
+  line-height: 1.5;
+  color: hsl(217, 12%, 63%);
+}
+
+.number-box {
+  background-color:hsl(213, 22%, 22%);
+  border-radius: 50%; 
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  color: hsl(217, 12%, 63%);
+  height: 2.3rem; 
+  padding: 11px 5px 0 5px;
+  text-align: center;
+  min-width: 2.3rem;
+  
+  /* For layout*/
+  display: inline-block;
+  margin: 12.5px;
+  position: relative;
+  right: 10px;
+  bottom: 5px;
+  
+  }
+  
+  .number-box:hover {
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    color: white;
+  }
+
+  .btn {
+    color: white;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 3% 40%;
+    letter-spacing: 2px;
+  }
+
+  .btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%) ;
+    cursor: pointer;
+     
+  }
+
+  .active,
+.active:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+
+
+/* Second Page Content */
+
+.second-content {
+  background-color: hsl(213, 19%, 18%);
+  width: 25%;
+  margin: 10% 35%;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  padding: 2%;
+  border-radius: 15px;
+  display: none;
+  
+}
+
+.selection-display {
+  color:hsl(25, 97%, 65%);
+  background-color: hsl(213, 25%, 21%) ;
+  width: 50%;
+  margin: 4% 25%;
+  padding: 1% 0;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.head-2 {
+  margin-top: 2rem;
+}
+
+.second-paragraph {
+  color:hsl(217, 12%, 63%);
+  margin: 0 1.5%;
+  line-height: 1.5;
+}
+
+
+/* MObile Version */
+
+@media (max-width: 500px) {
+  .content-box {
+    width: 75%;
+    margin: 30% 8%;
+    padding: 5% ;
+  }
+
+  .number-box {
+    margin: 10px;
+  }
+
+  .second-content {
+    width: 75%;
+    margin: 30% 8%;
+    padding: 5% ;
+  }
+
+}
